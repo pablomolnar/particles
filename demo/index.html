@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>title</title>
+  <style type="text/css">
+  canvas {
+    background: #000
+  }
+
+  div {
+    font: 120px Cutive Mono;
+  }
+  </style>
+  <link href='https://fonts.googleapis.com/css?family=Cutive+Mono' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <div id="grumpy">Grumpy</div>
+  <script src="../dist/particles.js"></script>
+  <script>
+  document.body.onload = function() {
+
+    new Particles(document.getElementById('grumpy'));
+
+    // // Shapes
+    // new Particles(document.getElementById('grumpy'), {
+    //   shape: {type: 'circle', radius: 5}
+    // });
+
+    // new Particles(document.getElementById('grumpy'), {
+    //   shape: {type: 'rectangle', width: 5, height: 5}
+    // });
+
+    // new Particles(document.getElementById('grumpy'), {
+    //   shape: {type: 'convex-polygon', vertices: 3, circumradius: 5}
+    // });
+
+    // new Particles(document.getElementById('grumpy'), {
+    //   shape: Two.Polygon
+    // });
+
+    // // Color
+    // new Particles(document.getElementById('grumpy'), {
+    //   shape: {type: 'circle', radius: 5},
+    //   color: function(x, y) {
+
+    //   }
+    // });
+
+
+    // // Resolution
+    // new Particles(document.getElementById('grumpy'), {
+    //   resolution: 6,
+    //   shape: {type: 'circle', radius: 5}
+    // });
+
+    // // Events
+    // new Particles(document.getElementById('grumpy'), {
+    //   shape: {type: 'circle'},
+    //   particle: function(particle) {
+    //     particle.svgElement.addEventListener('mouseover', function(e){
+
+    //     });
+    //   }
+    // });
+  };
+  </script>
+</body>
+
+</html>
